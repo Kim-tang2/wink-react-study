@@ -20,7 +20,7 @@ body {
     max-width: 600px;
     background: #f1f1f1;
     position: absolute;
-    top: 50%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 30px 40px;
@@ -69,4 +69,11 @@ body {
     cursor: pointer;
     margin-top: 8px;
     width: 100%;
+}
+
+.user{
+    background-color: #ddd;
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: left;
 }
