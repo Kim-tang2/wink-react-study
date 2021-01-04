@@ -8,7 +8,7 @@ export function TimeLinePage() {
     const [getData, feeds, isLoading, isError] = GetFeedData(api);
 
     return <>
-        <Write refresh = {getData}/>
+        <Write/>
         <TimeLine items={feeds} isLoading={isLoading} isError={isError} />
     </>
 }
